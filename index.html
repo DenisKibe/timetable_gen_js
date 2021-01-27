@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="bg">
+    <div class="mask flex-center rgba-blue-strong">
+        <div class="intro-info-content text-center">
+            <h1 class="display-3 mb-2 wow fadeInDown" data-wow-delay="0.3s">TIMETABLE
+                <a class="purple-text font-weight-bold">SCHEDULER</a>
+            </h1>
+            <hr class="hr-light mt-0 wow fadeInDown w-25"  data-wow-delay="0.4s">
+            <h5 class="text-uppercase mb-5 mt-1 font-weight-bold wow fadeInDown" data-wow-delay="0.3s">simple fast reliable</h5>
+        </div>
+    </div>
+</div>
+
+
+  <header>
+  
+ 
+  <main>
+  <div class="container-fluid blue-gradient">
+  <div class="row">
+  <div class="col-6">
+      <div class="jumbotron card bg-warning" >
+      <a href='timetablePlan.html' class="text-dark">
+         <div class=" text-center py-2 px-2">
+             <h2 class="card-title font-bold"><strong>Get Started</strong></h2>
+         </div>
+         </a>
+      </div>
+  </div>
+  <div class="col-6">
+      <div class="jumbotron card bg-warning" >
+      <a href='timetable.html'>
+         <div class=" text-center py-2 px-2 text-dark">
+             <h2 class="card-title font-bold"><strong>Previously Saved</strong></h2>
+         </div>
+         </a>
+      </div>
+  </div>
+  </div>  
+  </div>
+  
+<!--footer-->
+<footer class="page-footer font-small blue fixed-bottom">
+<!--CopyRight-->
+<div class="footer-copyright text-center py-3">&copy; <script>document.write(new Date().getFullYear());</script> Copyright. All Rights Reserverd</div>
+</footer>  
+  </main>
+  </header>
+
+  <!-- SCRIPTS -->
+  <script>
+  if('serviceWorker' in navigator){
+          window.addEventListener('load',()=>{
+                  navigator.serviceWorker.register('/sw.js')
+                  .then(reg=>{
+                      console.log('Registered!',reg);
+                  }).catch(err=>{
+                      console.log('Registration failed:',err);
+                  });
+          });
+  }else{
+          console.log('nan');
+  }
+  </script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>

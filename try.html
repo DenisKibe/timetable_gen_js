@@ -1,0 +1,113 @@
+<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog cascading-modal" role="document">
+<!--content-->
+<div class="modal-content">
+<!--Modal cascading tabs-->
+<div class="modal-c-tabs">
+<!--Nav tabs-->
+<ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+<li class="nav-item">
+<a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>login</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>Register</a>
+</li>
+</ul>
+
+<!--Tab panels-->
+<div class="tab-content">
+<!--panel 7-->
+<div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+<!--body-->
+<div class="modal-body mb-1">
+<div class="md-form form-sm mb-5">
+<input type="text" id="schoolName" class="form-control fprm-control-sm validate">
+<label data-error="wrong" data-success="right" for="schoolName">School Name</label>
+</div>
+
+<div class="md-form form-sm mb-5">
+<input type="text" id="streamName" class="form-control fprm-control-sm validate">
+<label data-error="wrong" data-success="right" for="streamName">Stream Name</label>
+</div>
+
+<div class="md-form form-sm mb-5">
+<input type="number" id="streamNo" class="form-control fprm-control-sm validate">
+<label data-error="wrong" data-success="right" for="streamNo">No of streams</label>
+</div>
+
+<div class="text-center mt-2">
+<button class="btn btn-info">Next</button>
+</div>
+</div>
+
+<!--footer-->
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+</div>
+</div>
+
+<div class="tab-panel fade" id="panel8" role="tabpanel">
+<div class="modal-body">
+<div class="md-form form-sm mb-5">
+<input type=
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<!--
+</div>
+
+
+
+
+
+
+<thead><tr><th scope="col">#</th><th scope="col">8:00-8:40</th><th scope="col">8:40-9:20</th><th scope="col">9:20-9:30</th><th scope="col">9:30-10:10</th><th scope="col">10:10-10:50</th><th scope="col">10:50-11:20</th><th scope="col">11:20-12:00</th><th scope="col">12:00-12:40</th><th scope="col">12:40-1:20</th><th scope="col">1:20-2:00</th><th scope="col">2:00-2:40</th><th scope="col">2:40-3:20</th><th scope="col">3:20-4:00</th></tr></thead>
+
+
+ResponseBody.forEach(function(element){
+           console.log(element);
+           $('#content').append('<table class="table table-bordered"><tbody id="r'+count+'><tr>count</th></tbody></table>')
+           
+           element.forEach(function(element){
+               console.log(element);
+               $('#r'+count).append('<tr id=c'+count+'></tr>');
+               element.forEach(function(element){
+                   console.log(element);
+                   $('#c'+count).append('<th scope="row">'+count+'</th><td>'+element+'</td>');
+               });
+           });
+           
+           
+<div class="container-fluid">
+       <div  class="card ">
+       
+       <h5 class="card-header info-color white-text text-center py-5">
+           <strong>School Info</strong>
+       </h5>
+       <div class="card-body px-3">
+           <form class="text-center">
+              <div class="md-form">
+                  <input type="text" id="schoolName" class="form-control">
+                  <label for="schoolName">School Name</label>
+              </div>
+              <div class="md-form">
+                  <input type="text" id="streamName" class="form-control">
+                  <label for="streamName">stream Name</label>
+              </div>
+              <div class="md-form">
+                  <input type="number" id="noOfStreams" class="form-control">
+                  <label for="noOfStreams">No of Streams</label>
+              </div>
+              <div class="md-form">
+                  <input type="text" id="subjects" class="form-control">
+                  <label for="streamName">subjects</label>
+              </div>
+           </form>
+       </div>
+       </div>
+      
+   </div>           

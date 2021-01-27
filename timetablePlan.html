@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container fluid">
+
+</div>
+<div class="container pb-3">
+<div class="row">
+<div class="col">
+<main class="pt-1 mt-1">
+    <!--sign up-->
+    <section class="form-elegant">
+        <!--form without header-->
+        <div class="card">
+            <div class="card-body mx-4">
+                <!--header-->
+                <div class="text-center">
+                    <h3 class="dark-grey-text mb-5"><strong>Timetable info</strong></h3>
+                </div>
+                
+                <!--Body-->
+                <div class="row">
+                <div class="col-6">
+                <div class="md-form pb-4">
+                    <input type="text" id="schoolName" class="form-control " value="School of life" required>
+                    <label for="schoolName" id="LFS">Name of school</label>
+                </div>
+                </div>
+                <div class="col-6">
+                <div class="md-form pb-4">
+                    <input type="text" id="term" class="form-control" value="Term">
+                    <label for="term" id="LFT">School Term</label>
+                </div>
+                </div>
+                </div>
+                
+                <div class="row border pb-4">
+                <div class="col-6">
+                    <div class="md-form">
+                    <input type="text" id="streamName" class="form-control" value="Form">
+                    <label for="streamName" id="LFsN">Name of stream</label>
+                    
+                </div>
+                </div>
+                <div class="col-6">
+                    <div class="md-form">
+                    <input type="number" id="streamNo" class="form-control" value="1">
+                    <label for="streamNo" id="LFsNo">No of Streams</label>
+                    
+                </div>
+                </div>
+                </div>
+                <!--<p class="mt-2"><strong>lessons details</strong></p>
+                <div class="row border pb-4">
+                <div class="col-4">
+                    <div class="md-form">
+                    <input placeholder="Selected time" type="text" id="startTime" class="form-control timepicker">
+                    <label for="startTime" id="LFLST">Lessons Start Time</label>
+                    
+                </div>
+                </div>
+                <div class="col-4">
+                    <div class="md-form">
+                    <input  type="number" id="lessonsDulation" class="form-control">
+                    <label for="lessonsDulation" id="LFLD">Duration per Lesson</label>
+                    
+                </div>
+                </div>
+                <div class="col-4">
+                    <div class="md-form">
+                    <input placeholder="Selected time" type="text" id="endTime" class="form-control timepicker">
+                    <label for="endTime" id="LFLET">Lessons End Time</label>
+                    
+                </div>
+                </div>
+                </div>
+                <p class="mt-2"><strong>break Info</strong></p>
+                <div class="row border pb-4">
+                <div class="col-6">
+                    <div class="md-form">
+                    <input type="number" id="breaksNo" class="form-control">
+                    <label for="breaksNo" id="LFBNo">No of breaks</label>
+                    
+                </div>
+                </div>
+                <div class="col-6">
+                    <div class="md-form">
+                    <input type="number" id="TbreakTime" class="form-control">
+                    <label for="TbreakTime" id="LFTBT">Total Break Time</label>
+         
+                </div>
+                </div>
+                </div>-->
+                <p class="mt-2"><strong>subject Info</strong></p>
+                <div class="row border">
+                <div class="col-3 border">
+                    <p><strong>Compulsory</strong></p>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" value="" checked id="mathsCheck">
+                                <label class="form-check-label" for="mathsCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">Mathematics</span>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" checked value="" id="engCheck">
+                                <label class="form-check-label" for="engCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">English</span>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" value="" checked id="kiswCheck">
+                                <label class="form-check-label" for="kiswCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">Kiswahili</span>
+                        </div>
+                    </div>
+                    
+         
+                
+                </div>
+                    
+                
+                
+                <div class="col-3 border">
+                    <p><strong>Sciences</strong></p>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" checked value="" id="chemCheck">
+                                <label class="form-check-label" for="chemCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">Chemistry</span>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" checked value="" id="phyCheck">
+                                <label class="form-check-label" for="phyCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">Physics</span>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" checked value="" id="bioCheck">
+                                <label class="form-check-label" for="bioCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">Biology</span>
+                        </div>
+                    </div>
+         
+                </div>
+                
+                <div class="col-3 border">
+                    <p><strong>Humanities</strong></p>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" checked id="geoCheck">
+                                <label class="form-check-label" id="checkgeo" for="geoCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">Geography</span>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" checked value="" id="histCheck">
+                                <label class="form-check-label" for="histCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">History</span>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" checked value="" id="creCheck">
+                                <label class="form-check-label" for="creCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">CRE</span>
+                        </div>
+                    </div>
+         
+                </div>
+                
+                
+                <div class="col-3 border">
+                    <p><strong>Technicals</strong></p>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" checked value="" id="bsCheck">
+                                <label class="form-check-label" for="bsCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">Business Study</span>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" checked value="" id="agrCheck">
+                                <label class="form-check-label" for="agrCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">Agriculture</span>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" style="height:38px;">
+                                <input class="form-check-input" type="checkbox" checked value="" id="compCheck">
+                                <label class="form-check-label" for="compCheck"></label>
+                            </div>
+                        </div>
+                        <div class="input-group-append">
+                           <span class="input-group-text">Computer</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                
+                </div>
+                
+              
+                
+                <div class="text-center mt-3">
+                    <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a" id="generateTT">Generate</button>
+                </div>
+                
+                
+            </div>
+            
+            <!--Footer-->
+            <div class="modal-footer mx-5 pt-3 mb-1">
+               
+            </div>
+        </div>
+    </section>
+    
+<!--footer-->
+<footer class="page-footer font-small blue fixed-bottom">
+<!--CopyRight-->
+<div class="footer-copyright text-center py-3">&copy; <script>document.write(new Date().getFullYear());</script> Copyright. All Rights Reserverd</div>
+</footer>
+
+<!--Error Module-->     
+    </main>
+</div>
+</div>
+</div>   
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!--custom js-->
+  <script type="text/javascript" src="js/timetablePlan.js"></script>
+</body>
+
+</html>
